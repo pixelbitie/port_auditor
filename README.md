@@ -10,8 +10,9 @@ Run the following to install dependencies
 ## Usage
 Execute the script through
 ```bash
-  python port_auditor.py
+  sudo python3 port_auditor.py
 ```
+(root permissions is required for the script to work)
 
 Ensure that ``allowed_ports.txt`` is put in the same directory as the running script and that it is configured as per the following syntax:
 ```
