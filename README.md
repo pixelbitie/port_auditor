@@ -1,5 +1,6 @@
 # port_auditor
 Python script that scans through all open TCP listening ports on a system, and determines them as authorised or unauthorised based on user-defined ports in a ``allowed_ports.txt`` file.
+Use this tool as a lightweight security layer that helps identify unexpected services that may render your system vulnerable to attacks.
 
 ## Requirements:
 Run the following to install dependencies
